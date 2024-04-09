@@ -1,4 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Eviden Events
+
+Event management system that allows users to create, list, modify and delete events.
+Events will have a date, time, description, and maximum capacity of attendees.
+In addition, users must be able to register for specific events with capacity limits and manage waiting lists.
+
+## Functional Requirements
+
+1. ### User Management
+
+   - [x] Users can register and log in.
+   - [x] Users can log out.
+
+2. ### Event Management
+
+   - [ ] Users can create events.
+   - [ ] Users can list events.
+   - [ ] Users can modify events.
+   - [ ] Users can delete events.
+   - [ ] Registration of users to events and management of waiting lists.
+   - [ ] Search and filter events by date, location, and availability.
+
+3. ### User Interface
+
+   - [x] Develop with React using TypeScript.
+   - [x] Responsive design adapted to various screen sizes.
+   - [x] UX/UI best practices.
+
+4. ### Backend
+
+   - [ ] Implement RESTful API with Node.js and Express, using TypeScript.
+   - [ ] Use of JWT for authentication and authorization.
+   - [ ] Implementation of microservices for different domains (users, events).
 
 ## Getting Started
 
@@ -34,32 +66,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-Descripción General
-Desarrollar un sistema de gestión de eventos que permita a los usuarios crear, listar, modificar y eliminar eventos.
-Los eventos tendrán una fecha, hora, descripción, y capacidad máxima de asistentes.
-Además, se debe poder registrar usuarios a eventos específicos con límite de capacidad y gestionar listas de espera.
-
-Requerimientos Funcionales
-
-1. Gestión de Usuarios
-
-   - Registro e inicio de sesión de usuarios.
-   - Autenticación y autorización para diferentes roles (administrador, usuario común).
-
-2. Gestión de Eventos
-
-   - CRUD (Crear, Leer, Actualizar, Eliminar) de eventos.
-   - Inscripción de usuarios a eventos y manejo de listas de espera.
-   - Búsqueda y filtrado de eventos por fecha, ubicación, y disponibilidad.
-
-3. Interfaz de Usuario
-
-   - Desarrollar con React usando TypeScript.
-   - Diseño responsive adaptado a varios tamaños de pantalla.
-   - Mejores prácticas de UX/UI.
-
-4. Backend
-   - Implementar API RESTful con Node.js y Express, usando TypeScript.
-   - Uso de JWT para autenticación y autorización.
-   - Implementación de microservicios para diferentes dominios (usuarios, eventos).
