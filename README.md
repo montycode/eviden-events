@@ -34,3 +34,32 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Descripción General
+Desarrollar un sistema de gestión de eventos que permita a los usuarios crear, listar, modificar y eliminar eventos.
+Los eventos tendrán una fecha, hora, descripción, y capacidad máxima de asistentes.
+Además, se debe poder registrar usuarios a eventos específicos con límite de capacidad y gestionar listas de espera.
+
+Requerimientos Funcionales
+
+1. Gestión de Usuarios
+
+   - Registro e inicio de sesión de usuarios.
+   - Autenticación y autorización para diferentes roles (administrador, usuario común).
+
+2. Gestión de Eventos
+
+   - CRUD (Crear, Leer, Actualizar, Eliminar) de eventos.
+   - Inscripción de usuarios a eventos y manejo de listas de espera.
+   - Búsqueda y filtrado de eventos por fecha, ubicación, y disponibilidad.
+
+3. Interfaz de Usuario
+
+   - Desarrollar con React usando TypeScript.
+   - Diseño responsive adaptado a varios tamaños de pantalla.
+   - Mejores prácticas de UX/UI.
+
+4. Backend
+   - Implementar API RESTful con Node.js y Express, usando TypeScript.
+   - Uso de JWT para autenticación y autorización.
+   - Implementación de microservicios para diferentes dominios (usuarios, eventos).
