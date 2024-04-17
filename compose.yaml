@@ -31,17 +31,5 @@ services:
       - path: ./.env
         required: true # default
 
-  # We're using MongoDB atlas so we don't need to run a local instance of MongoDB
-  # but if you want to run a local instance, you can do it this way
-  # db:
-  #   image: mongo
-  #   ports:
-  #     - 27017:27017
-  #   environment:
-  #     - MONGO_INITDB_ROOT_USERNAME=sujata
-  #     - MONGO_INITDB_ROOT_PASSWORD=rnZzJjIDr3bIDymV
-  #   volumes:
-  #     - tasked:/data/db
-
 volumes:
   tasked:
