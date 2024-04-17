@@ -136,8 +136,11 @@ export async function getOrdersByUser({
   try {
     await connectToDatabase();
 
+    const organizer = await User.findOne({ clerkId: userId });
+    if (!organizer) throw new Error("Organizer not found");
+
+    const conditions = { buyer: organizer._id };
     const skipAmount = (Number(page) - 1) * limit;
-    const conditions = { buyer: userId };
 
     const orders = await Order.distinct("event._id")
       .find(conditions)
